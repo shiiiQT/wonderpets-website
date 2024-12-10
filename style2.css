@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://t3.ftcdn.net/jpg/09/61/22/74/360_F_961227433_ztdWTpnCNUUxJ5GKBdNY24N6UKtVj2ok.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #D391FA;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.circle-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+    margin: 5px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quote-container {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote {
+    font-size: 18px;
+    color: black;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #2a5298, #1e3c72);
+}
